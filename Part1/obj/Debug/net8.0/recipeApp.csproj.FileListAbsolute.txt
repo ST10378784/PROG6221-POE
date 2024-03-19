@@ -1,0 +1,14 @@
+C:\PROG6221.POE\recipeApp\bin\Debug\net8.0\recipeApp.exe
+C:\PROG6221.POE\recipeApp\bin\Debug\net8.0\recipeApp.deps.json
+C:\PROG6221.POE\recipeApp\bin\Debug\net8.0\recipeApp.runtimeconfig.json
+C:\PROG6221.POE\recipeApp\bin\Debug\net8.0\recipeApp.dll
+C:\PROG6221.POE\recipeApp\bin\Debug\net8.0\recipeApp.pdb
+C:\PROG6221.POE\recipeApp\obj\Debug\net8.0\recipeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROG6221.POE\recipeApp\obj\Debug\net8.0\recipeApp.AssemblyInfoInputs.cache
+C:\PROG6221.POE\recipeApp\obj\Debug\net8.0\recipeApp.AssemblyInfo.cs
+C:\PROG6221.POE\recipeApp\obj\Debug\net8.0\recipeApp.csproj.CoreCompileInputs.cache
+C:\PROG6221.POE\recipeApp\obj\Debug\net8.0\recipeApp.dll
+C:\PROG6221.POE\recipeApp\obj\Debug\net8.0\refint\recipeApp.dll
+C:\PROG6221.POE\recipeApp\obj\Debug\net8.0\recipeApp.pdb
+C:\PROG6221.POE\recipeApp\obj\Debug\net8.0\recipeApp.genruntimeconfig.cache
+C:\PROG6221.POE\recipeApp\obj\Debug\net8.0\ref\recipeApp.dll
