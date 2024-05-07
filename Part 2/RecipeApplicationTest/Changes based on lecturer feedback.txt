@@ -1,0 +1,6 @@
+The lecturer told me to implement the following into my code: 
+
+Error handling, previously in part 1 this was non-existent so my application was not on par and could easily be broken if wrong value/data type was entered. this was implemented especially so that you could not enter a string where a integer belongs and vice versa.
+
+Next up was implementing the reset quantities method as i did have a reset function but it was in the wrong place. i implemented it where you could reset it straight after scaling it instead of just typing reset and it then exiting the page.
+
