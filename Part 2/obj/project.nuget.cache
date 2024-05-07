@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sZiqxADiThAxg6OgbPWOcOXTQBGYjGzY5evslKxswOnl7pM5i0JkbUYhQie0I3M5WTyOhr7I05OPMNZ2ahw8jw==",
+  "success": true,
+  "projectFilePath": "C:\\PROGRAMMING\\RecipeApplication\\RecipeApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pierr\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
