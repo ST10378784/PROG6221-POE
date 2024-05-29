@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -93,7 +93,7 @@ namespace RecipeApplication
                 Console.WriteLine($"Enter the name of the food group for - {name}:");
                 string foodGroup = Console.ReadLine();
 
-                recipe.Ingredients[i] = new Ingredient { Name = name, Quantity = quantity, Unit = unit, Calories = calories, FoodGroup = foodGroup };
+                recipe.Ingredients[i] = new Ingredient { Name = name, Quantity = quantity, Unit = unit, Calories = calories, FoodGroup = foodGroup, OriginalQuantity = quantity };
             }
 
             // Calculate total calories
@@ -172,10 +172,17 @@ namespace RecipeApplication
             {
                 foreach (var ingredient in recipe.Ingredients)
                 {
+                    ingredient.OriginalQuantity = ingredient.Quantity;
                     ingredient.Quantity *= factor;
                 }
                 Console.WriteLine("Quantities are scaled successfully.");
-                ResetQuantities(recipe);
+
+                Console.WriteLine("Do you want to reset the quantities to their original values? ( yes / no )");
+                string resetChoice = Console.ReadLine();
+                if (resetChoice.ToLower() == "yes")
+                {
+                    ResetQuantities(recipe);
+                }
             }
             else
             {
@@ -185,7 +192,11 @@ namespace RecipeApplication
 
         static void ResetQuantities(Recipe recipe)
         {
-            // Reset quantities to original/assuming values are stored already
+            foreach (var ingredient in recipe.Ingredients)
+            {
+                ingredient.Quantity = ingredient.OriginalQuantity; // Restore original quantity
+            }
+
             Console.WriteLine("Quantities are successfully reset.");
         }
 
@@ -235,5 +246,6 @@ namespace RecipeApplication
         public string Unit { get; set; }
         public int Calories { get; set; }
         public string FoodGroup { get; set; }
+        public double OriginalQuantity { get; set; }
     }
 }
