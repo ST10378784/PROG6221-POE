@@ -93,7 +93,7 @@ namespace RecipeApplication
                 Console.WriteLine($"Enter the name of the food group for - {name}:");
                 string foodGroup = Console.ReadLine();
 
-                recipe.Ingredients[i] = new Ingredient { Name = name, Quantity = quantity, Unit = unit, Calories = calories, FoodGroup = foodGroup };
+                recipe.Ingredients[i] = new Ingredient { Name = name, Quantity = quantity, Unit = unit, Calories = calories, FoodGroup = foodGroup, OriginalQuantity = quantity };
             }
 
             // Calculate total calories
